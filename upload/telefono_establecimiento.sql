@@ -1,0 +1,6 @@
+LOAD DATA INFILE '/var/lib/mysql-files/TELEFONO_ESTABLECIMIENTO.csv' 
+INTO TABLE TELEFONO_ESTABLECIMIENTO 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+(id_telefono, telefono, id_establecimiento);

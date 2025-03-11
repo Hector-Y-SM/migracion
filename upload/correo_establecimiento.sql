@@ -1,0 +1,6 @@
+LOAD DATA INFILE '/var/lib/mysql-files/CORREO_ESTABLECIMIENTO.csv' 
+INTO TABLE CORREO_ESTABLECIMIENTO 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+(id_correo, correo, id_establecimiento);
