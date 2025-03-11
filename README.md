@@ -1,7 +1,7 @@
 # Migración de Datos al Servidor
 
 ## Método Elegido
-Se optó por completar los campos faltantes (Primary Key) en cada tabla utilizando Google Sheets y AppScript para generar las claves primarias (PK). Las tablas fueron normalizadas hasta la tercera forma normal (3NF).
+Se completaron los campos faltantes (Primary Key) en cada tabla utilizando Google Sheets para poder almacenar los datos y AppScript para generar las claves primarias (PK). Luego, se cargaron los datos en MySQL siguiendo el procedimiento descrito
 
 ## Problemas y Soluciones
 
@@ -45,3 +45,4 @@ Luego, se utilizaron los comandos dentro de `upload` para importar cada tabla en
 
 ---
 Este proceso asegura la correcta migración y estructuración de los datos en la base de datos MySQL.
+![diagrama de tablas](/img/diagrama%20.png)
